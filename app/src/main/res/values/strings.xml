@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kalkulator Yeni</string>
+    <string name="button_tombol">Tombol</string>
+    <string name="klik">Klicked</string>
+
+    <string-array name="listKota">
+        <item> Malang </item>
+        <item> Blitar </item>
+        <item> Banyuwangi </item>
+        <item> Kediri </item>
+        <item> Jember </item>
+        <item> Pasuruan </item>
+        <item> Probolinggo </item>
+        <item> Situbondo </item>
+        <item> Bondowoso </item>
+    </string-array>
+</resources>

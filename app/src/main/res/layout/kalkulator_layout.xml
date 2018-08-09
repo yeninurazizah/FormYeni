@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka Pertama"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/angka1"
+        android:hint="Masukkan Angka Kedua"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/angka2"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_kali"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_tambah"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/btn_bagi"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_tambah"
+        android:layout_toRightOf="@id/btn_kali"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btn_kurang"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka2"
+        android:layout_toRightOf="@id/btn_tambah"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/text_view_hasil"
+        android:layout_width="204dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="100dp"
+        android:text="Hasil " />
+
+
+</RelativeLayout>
